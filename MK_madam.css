@@ -2,9 +2,16 @@
 	max-width: 90%;
 	max-height: 90%;
 }
+h1,h2{
+	font-weight: bold;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 img {
-	max-width: 100%;
-	max-height: 100%;
+	background-size: contain; 
+	background: repeat;
+	width: 300px;
+	height: 200px;
+	border: black 4px solid;
 }
 body {
 	color: #333;
@@ -78,7 +85,7 @@ figure {
 	height: 200px;
 	margin: 0;
 	padding: 0;
-	background: #fff;
+	background: white;
 	overflow: hidden;
 }
 figure:hover+span {
